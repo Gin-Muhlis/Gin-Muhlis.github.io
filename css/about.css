@@ -649,6 +649,13 @@ footer .footer-content {
     align-items: flex-start;
 }
 
+.footer-content-about,
+.footer-content-referrence,
+.footer-content-contact,
+.footer-content-social {
+    margin-bottom: 35px;
+}
+
 .footer-content-about h3,
 .footer-content-referrence h3,
 .footer-content-contact h3,
@@ -777,7 +784,7 @@ footer .line {
     width: 100%;
     height: 2px;
     background: rgba(255, 255, 255, .3);
-    margin: 50px 0 20px;
+    margin: 15px 0 20px;
 }
 
 footer span {
@@ -869,14 +876,9 @@ footer span {
     footer .footer-content .footer-content-referrence,
     footer .footer-content .footer-content-contact,
     footer .footer-content .footer-content-social {
+        align-items: center;   
         text-align: center;
         flex-basis: 100%;
-    }
-
-    footer .footer-content .footer-content-about,
-    footer .footer-content .footer-content-referrence,
-    footer .footer-content .footer-content-contact {
-        margin-bottom: 35px;
     }
 
     footer .footer-content .footer-content-social ul {
@@ -895,8 +897,16 @@ footer span {
         -o-transform: translateX(-50%);
     }
 
-}
+    
+    .footer-content-about h3,
+    .footer-content-referrence h3,
+    .footer-content-contact h3,
+    .footer-content-social h3 {
+        text-align: center;
+        margin: 0 auto 10px;
+    }
 
+}
 
 @media screen and (max-width: 500px) {
     .banner {
@@ -1007,22 +1017,6 @@ footer span {
 
     .footer-content-social ul li a {
         font-size: 14px;
-    }
-
-    .footer-content-about h3,
-    .footer-content-referrence h3,
-    .footer-content-contact h3,
-    .footer-content-social h3 {
-        text-align: center;
-        margin: 0 auto 10px;
-    }
-
-    .footer-content .footer-content-contact {
-        align-items: center;
-    }
-
-    .footer-content .footer-content-social {
-        align-items: center;
     }
 
     .footer-content-social ul {
