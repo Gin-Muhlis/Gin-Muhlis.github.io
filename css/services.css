@@ -927,7 +927,7 @@ footer span {
 }
 
 }
-/* *{border: 1px solid blue;} */
+
 @media screen and (max-width: 500px) {
     .banner {
         padding: 20px;
@@ -953,6 +953,7 @@ footer span {
     .banner-main .col-2 h1 {
         font-size: 60px;
         line-height: 65px;
+        margin-bottom: 15px;
     }
 
     .banner-main .col-2 p {
@@ -1090,7 +1091,6 @@ footer span {
     .banner-main .col-2 h1 {
         font-size: 40px;
         line-height: 45px;
-        margin-bottom: 15px;
     }
 
     .banner-main .col-2 p {
