@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.weather-wrap {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0 ,0 ,0, .2), rgba(0, 0, 0, .6));
+    display: flex;   
+    flex-direction: column;
+}
+
+.weather-wrap header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+    margin-bottom: 20px;
+}
+
+header input {
+    padding: 9px 15px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ffa200;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 15px 0 15px 0;
+    -webkit-border-radius: 15px 0 15px 0;
+    -moz-border-radius: 15px 0 15px 0;
+    -ms-border-radius: 15px 0 15px 0;
+    -o-border-radius: 15px 0 15px 0;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+header input:focus {
+    background: rgba(255, 255, 255, .7);
+}
+
+.weather-wrap .current {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current .location {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.current .date {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.weather-wrap .temp {
+    padding: 27px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp p {
+    font-size: 90px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.weather-wrap .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.detail .weather {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.detail .min-max {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+}
