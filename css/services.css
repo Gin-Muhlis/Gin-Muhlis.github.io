@@ -853,8 +853,6 @@ footer span {
     bottom: 30px;
 }
 
-
-
 /* !responsive breakpoints */
 @media screen and (max-width: 1010px) {
     .banner .banner-main .img {
