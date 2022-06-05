@@ -850,6 +850,10 @@ footer span {
         margin-left: 0px;
     }
 
+    .banner .banner-main {
+        display: flex;
+    }
+
     .about {
         padding: 120px 50px;
     }
@@ -911,10 +915,6 @@ footer span {
 @media screen and (max-width: 500px) {
     .banner {
         padding: 20px;
-    }
-
-    .banner .banner-main {
-        display: flex;
     }
 
     .about {

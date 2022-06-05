@@ -792,6 +792,7 @@ footer span {
 
     .banner .banner-main {
         display: flex;
+        justify-content: start;
     }
 
     .banner.move {
