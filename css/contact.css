@@ -510,6 +510,7 @@ body {
         "message message"
         "button button";
     gap: 20px;
+    row-gap: 23px;
 }
 
 .contact .content .col-2 form .name {
@@ -1048,5 +1049,9 @@ footer span {
         -ms-transform: scaleY(1.1);
         -o-transform: scaleY(1.1);
     }
+
+    .contact .content .col-1,
+    .contact .content .col-2 {
+        min-width: 300px;
+    }
 }
-/* *{border: 1px solid blue;} */
