@@ -565,7 +565,6 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     padding: 20px 0;
     position: relative;
 }
@@ -587,6 +586,7 @@ body {
 .embed-row .col-6 .video {
     width: 100%;
     height: 310px;
+    margin: 10px 0 20px;
 }
 
 .embed .embed-row .col-6 .video iframe {
@@ -950,7 +950,6 @@ footer span {
 
     .embed-row .col-6 .video {
         height: 250px;
-        margin-bottom: 8px;
     }
 
     footer {
