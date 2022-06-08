@@ -28,4 +28,8 @@ window.onscroll = function () {
 }
 
 // ! AOS animate
-AOS.init();
+AOS.init(
+    {
+        disable: 'phone'
+    }
+);
