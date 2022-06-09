@@ -13,8 +13,8 @@ form.addEventListener('submit', e => {
         .then(response => {
             console.log('Success!', response);
             btn.classList.remove('button-loading')
+            alert('Your message has been sent!')
             form.reset();
-            
         })
         .catch(error => console.error('Error!', error.message))
 })
