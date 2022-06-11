@@ -408,12 +408,12 @@ body {
 
 .gallery .item{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 50px;
 }
 
 .gallery .item .image{
-    min-height: 200px;
+    min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -476,9 +476,6 @@ body {
 .gallery .item .image.image-2 {
     background-image: url(../assets/gambar2.jpg);
 }
-.gallery .item .image.image-3 {
-    background-image: url(../assets/gambar3.jpg);
-}
 .gallery .item .image.image-4 {
     background-image: url(../assets/gambar4.jpg);
 }
@@ -488,23 +485,8 @@ body {
 .gallery .item .image.image-6 {
     background-image: url(../assets/gambar6.jpg);
 }
-.gallery .item .image.image-7 {
-    background-image: url(../assets/gambar7.jpg);
-}
-.gallery .item .image.image-8 {
-    background-image: url(../assets/gambar8.jpg);
-}
 .gallery .item .image.image-9 {
     background-image: url(../assets/gambar9.jpg);
-}
-.gallery .item .image.image-10 {
-    background-image: url(../assets/gambar10.jpg);
-}
-.gallery .item .image.image-11{
-    background-image: url(../assets/gambar11.jpg);
-}
-.gallery .item .image.image-12 {
-    background-image: url(../assets/gambar12.jpg);
 }
 
 /* !footer */
@@ -797,8 +779,12 @@ footer span {
         padding: 120px 20px;
     }
 
+    .gallery .item {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
     .gallery .item .image {
-        min-height: 250px;
+        min-height: 300px;
     }
 
     .gallery h2 {
